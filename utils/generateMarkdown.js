@@ -25,6 +25,7 @@ function generateMarkdown(data) {
   *[Installation]("#installation")
 
   *[Usage]("usage")
+  
   ${renderlicencelink(data.licence)}
 
   ## Installation

@@ -38,8 +38,13 @@ const questions = [
         name: "contributors" 
     },
     {   type: "input",
-        message: "Do you have any question?",
+        message: "Do you have any questions?",
         name: "questions" 
+    },
+    {   type: "input",
+        message: "What licence is used?",
+        name: "licence",
+        default: "MIT"
     }
 ];
 
