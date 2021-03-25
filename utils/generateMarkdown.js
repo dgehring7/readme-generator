@@ -23,7 +23,7 @@ function generateMarkdown(data) {
   ## Table of Contents
 
   *[Installation]("#installation")
-  
+
   *[Usage]("usage")
   ${renderlicencelink(data.licence)}
 
@@ -40,8 +40,23 @@ function generateMarkdown(data) {
 
   ${renderlicencesection(data.licence)}
 
-  ${data.Github}
+  ## Contributors
+  \`\`\`
+  ${data.contributors}
+  \`\`\`
+  contributed to this project
 
+  ## Questions
+
+  ${data.questions}
+
+  ## Github
+  
+  Here is my Github:
+  \`\`\`
+  ${data.Github}
+  \`\`\`
+  to view my other projects
 
 `;
 }
