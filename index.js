@@ -31,6 +31,15 @@ const questions = [
         type: "input",
         message: "What does the user need to know about using the repo?",
         name: "usage" 
+    },
+    {
+        type: "input",
+        message: "Who were the contributors to this project?",
+        name: "contributors" 
+    },
+    {   type: "input",
+        message: "Do you have any question?",
+        name: "questions" 
     }
 ];
 
