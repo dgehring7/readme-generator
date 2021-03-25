@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   
   Here is my Github:
   \`\`\`
-  ${data.Github}
+  github.com/${data.Github}
   \`\`\`
   to view my other projects
 
